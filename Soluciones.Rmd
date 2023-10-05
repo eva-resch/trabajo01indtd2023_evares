@@ -123,3 +123,50 @@ Con respecto a los costes, todos los criterios eligen la alternative d5.
 
 
 ## Problema 2
+
+El modelo tiene los siguientes parámetros:
+
+* Un decisor: la dueña de la panadería
+
+* Modelo de ganancias (favorable)
+
+Las alternativas son:
+
+1. `d1`: no cambiar oferta,
+
+2. `d2`: pedir hogazas congeladas cada mes, o
+
+3. `d3`: colocar panadero para todo el año y comprar los ingredientes.
+
+Los posibles estados de la naturaleza son:
+
+1. `e1`: a los clientes españoles les gusta el nuevo pan, o
+
+2. `e2`: al los clientes españoles no les gusta el nuevo pan.
+
+Matriz de decision o valoraciones:
+
+```{r tablaDecision}
+# numero fila = alternativa, numero columna = estado.
+# estado e1:
+m11 = 0
+m21 = (5000 - 1000) * 12
+m31 = (20000 - 8000) * 12
+# estado e2:
+m12 = 0
+m22 = -1000
+m32 = (2000 - 4000) * 12 - 3000  #emplear a panadero por todo el año + costes de ingredientes
+
+tb2 = crea.tablaX(c(m11, m12, m21, m22, m31, m32), 3, 2)
+
+knitr::kable(data.frame(tb2), format="markdown")
+```
+
+Ahora se aplican todos los criterios, poniendo alfa = 0.4:
+
+```{r criterios}
+res2 = criterio.Todos(tb2, alfa = 0.4, favorable = TRUE)
+res2
+```
+
+Sólo si la dueña tiene una actitud exclusivamente pesimista elegiría la primera opción según el criterio de Wald. En cualquier otro caso, todos los criterios le aconsejan elegir la tercera opción.
