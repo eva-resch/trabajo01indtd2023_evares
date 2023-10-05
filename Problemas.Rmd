@@ -1,0 +1,33 @@
+---
+title: "Trabajo Teoría Decisión: Métodos Incertidumbre - Problemas"
+author: "Eva Resch"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("~/Code/TeoriaDeLaDecision/TDecisionCodigo/teoriadecision_funciones_incertidumbre.R")
+library(knitr)
+```
+
+# Problema 1 : Tabla de Decisión
+
+Aplicar los criterios de decisión bajo incertidumbre a el problema cuya matriz de valores numéricos viene dada en la tabla siguiente:
+
+```{r tablaDecision1, include=FALSE}
+set.seed(12)
+tb1 = crea.tablaX(rnorm(5*6, mean=100, sd=10), 5, 6)
+df1 = data.frame(tb1)
+```
+
+```{r printtable}
+knitr::kable(df1, format="markdown")
+```
+
+Considerar beneficios (favorable) y costos (desfavorable).
+
+# Problema 2 : 
+
+
+
