@@ -151,11 +151,11 @@ Matriz de decision o valoraciones:
 # estado e1:
 m11 = 0
 m21 = (5000 - 1000) * 12
-m31 = (20000 - 8000) * 12
+m31 = (16000 - 8000) * 12
 # estado e2:
 m12 = 0
 m22 = -1000
-m32 = (2000 - 4000) * 12 - 3000  #emplear a panadero por todo el año + costes de ingredientes
+m32 = (2000 - 5000) * 12 - 3000  #emplear a panadero por todo el año + costes de ingredientes
 
 tb2 = crea.tablaX(c(m11, m12, m21, m22, m31, m32), 3, 2)
 
@@ -169,4 +169,4 @@ res2 = criterio.Todos(tb2, alfa = 0.4, favorable = TRUE)
 res2
 ```
 
-Sólo si la dueña tiene una actitud exclusivamente pesimista elegiría la primera opción según el criterio de Wald. En cualquier otro caso, todos los criterios le aconsejan elegir la tercera opción.
+Sólo si la dueña tiene una actitud exclusivamente pesimista elegiría la primera opción según el criterio de Wald. En cualquier otro caso, casí los criterios le aconsejan elegir la tercera opción.
