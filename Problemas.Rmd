@@ -44,8 +44,8 @@ Los efectos se registrarán a lo largo de un año, por lo que deberán sopesarse
 
 La primera opción no conlleva pérdidas, pero tampoco beneficios. 
 
-La segunda opción tiene un coste de 1.000 euros por pedido y puede pedirse en caso de que sea necesario. 
-Si a los clientes les gusta el pan, obtendrán un plus mensual de 5.000 euros. Si no, es decir, si los clientes no compran el pan, no hará más pedidos.
+La segunda opción tiene un coste de 1.000 euros por pedido y se puede pedir en caso de que sea necesario (p.e. cada mes). 
+Si a los clientes les gusta el pan, la panadería obtendrá un plus mensual de 5.000 euros. Si no, es decir, si los clientes no compran el pan, no hará más pedidos.
 
 La tercera opción - emplear a un panadero con un contrato para todo el año y comprar los ingredientes - supone unos gastos mensuales adicionales de 5.000 y 3.000 euros, respectivo.
 Si a los clientes les gusta el pan, obtendrán un plus mensual de 16.000 euros. Si no, sólo obtendrá 2.000 euros de beneficio al mes con la ayuda que le preste el panadero en el negocio normal.
