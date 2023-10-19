@@ -28,7 +28,7 @@ knitr::kable(df1, format="markdown")
 
 Considerar beneficios (favorable) y costos (desfavorable).
 
-## Problema 2 : 
+## Problema 2 : Panadería "Pan y más"
 
 La panadería "Pan y más" en la calle Amor de Dios está estudiando la posibilidad de aumentar su oferta de diferentes tipos de pan.
 

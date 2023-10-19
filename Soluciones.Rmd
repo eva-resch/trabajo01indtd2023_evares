@@ -124,7 +124,7 @@ criterio.PuntoIdeal(tablaX = tb1, favorable = FALSE)
 Con respecto a los costes, todos los criterios eligen la alternative d5.
 
 
-## Problema 2
+## Problema 2 : Panadería "Pan y más"
 
 El modelo tiene los siguientes parámetros:
 
