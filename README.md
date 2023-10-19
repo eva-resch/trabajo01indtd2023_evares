@@ -6,5 +6,5 @@ El primer problema será una tabla de decisión con valores inventados y resuelt
 El segundo problema es de un escenario oinventado y después resuelto con todas las funciones de Incertidumbre.
 
 Contiene los siguientes archivos:
-- Problemas.Rmd que contiene únicamente los enunciados de los problemas.
-- Soluciones.Rmd que contiene el código del trabajo.
+- Problemas.Rmd y Problemas.pdf que contiene únicamente los enunciados de los problemas.
+- Soluciones.Rmd y Soluciones.pdf que contiene el código del trabajo.
