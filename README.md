@@ -1,0 +1,10 @@
+# trabajo01indtd2023_evares
+
+Este repositorio alberga el código y los recursos relacionados con el trabajo individual de Teoría de la decisión. 
+El proyecto se enfoca en métodos de incertidumbre y contiene 2 problemas. 
+El primer problema será una tabla de decisión con valores inventados y resuelto con cada uno de los métodos o funciones individuales de Incertidumbre por separado. 
+El segundo problema es de un escenario oinventado y después resuelto con todas las funciones de Incertidumbre.
+
+Contiene los siguientes archivos:
+- Problemas.Rmd que contiene únicamente los enunciados de los problemas.
+- Soluciones.Rmd que contiene el código del trabajo.
