@@ -1,4 +1,6 @@
-# trabajo01indtd2023_evares
+# Teoría de la decisión (Universidad de Sevilla)
+
+GitHub repository for class "Teoría de la Decisión" at Universidad de Sevilla, fall semester 2023/24
 
 Este repositorio alberga el código y los recursos relacionados con el trabajo individual de Teoría de la decisión. 
 El proyecto se enfoca en métodos de incertidumbre y contiene 2 problemas. 
